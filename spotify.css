@@ -1,0 +1,262 @@
+.main{
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    background-color: #000;
+    color: #fff;
+    overflow:hidden;
+}
+
+.main{
+    display:flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+
+.sidebar{
+    background-color: black;
+    width: 334px;
+    border-radius: 1rem;
+    padding-right: 0.5rem;
+}
+.main-content{
+    background-color: #121212;
+    flex:1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music-player{
+    background-color: black;
+    position:fixed;
+    bottom: 0px;
+    width:100%;
+    height: 65px;
+}
+
+.nav .nav-option a{
+
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    border-radius: 1rem;
+    justify-content: center;
+    height: 100px;
+    padding:0.5rem 0.75rem;
+    
+  
+}
+
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding-left: 0.5rem;
+} 
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.25rem;
+    
+}
+.nav-option a{
+    font-size: 1rem;
+   
+}
+.liblary{
+    background-color: #121212;
+    border-radius: 1rem;
+    height:100%;
+    margin-top:0.5rem;
+    padding:0.5rem 0.75rem;
+}
+.lib-options a{
+    text-decoration: none;
+    color:white;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.options .lib-options img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin:0.75rem 0rem 0.75rem 0rem;
+    padding:0.75rem 1rem;
+}
+.box .box-p1{
+    font-size: 1rem;
+}
+.box .box-p2{
+    font-size: 0.85rem;
+    opacity: 0.8;
+    
+}
+.box .badge{
+    color: black;
+}
+
+.stickynav-options .badge{
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width:fit-content;
+}
+
+.stickynav-options .dark-badge{
+    color: white;
+    background-color: black;
+}
+
+.main-content .stickynav{
+    position: sticky;
+    top:0;
+    background-color: #121212;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0rem 1rem 0rem;
+    z-index: 1000;
+    
+}
+.stickynav-options button{
+
+    color: black;
+    border-radius: 1rem;
+    padding:0.25rem 1rem 0.25rem 1rem;
+    height: 2rem;
+}
+
+.card-container .card{
+    background-color: #232323;
+    color:white;
+    width: 150px;
+    border-radius:0.5rem ;
+    padding:1rem;
+    margin-left: 1rem;
+    width: 12rem;
+    margin-top: 0.5rem;
+}
+.main-content h3{
+    font-weight: 700;
+}
+.card .card-title{
+    font-weight: 700;
+}
+.card .card-info{
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+.card img{
+    width:100%;
+    border-radius: 0.5 rem;
+}
+
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+} 
+
+.footer{
+    height: 300px;
+}
+
+.music-player .album{
+    display: flex   ;
+}
+.music-player .album .pic .now-playing{
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    height: 50px;
+}
+.music-player .album .det{
+    margin-top: 0.9rem;
+    margin-left: 0.5rem;
+}
+.music-player .album .det a{
+    
+    font-size: 15px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.music-player .album .det .song-name{
+    font-weight: 700;
+    font-size: 80%;
+}
+.music-player .album .det .singer{
+    font-weight: 200;
+    font-size: 80%;
+}
+.music-player .album i{
+    display: flex   ;
+    margin-top:1.5rem;
+    margin-left: 0.5rem;
+}
+
+.music-player{
+    display: flex;
+    align-items: center ;
+}
+
+.music-player.album{
+    width:25%;
+}
+.music-player .player{
+    width:50%;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.music-player .controls{
+    width:25%;
+}
+.player-control-icon{
+    height: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.playback-bar{
+    display: flex;
+}
+
+.controls{
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.controls .controls-icons i{
+    margin-left: 0.5rem;
+}
+
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player : Music for everyone</title>
+    <link href="spotify.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option " style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>    
+                </div> 
+                <div class="nav-option " >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="liblary">
+                <div class="options">
+                    <div class="lib-options nav-option" >
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Liblary</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus" style="margin-right:0.2rem; cursor: pointer;"></i>
+                        <i class="fa-solid fa-arrow-right" style="cursor: pointer;"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">it's easy, we'll help you</p>
+                        <button class="badge" >create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated </p>
+                        <button class="badge" >Browse podcasts</button>
+                    </div>
+                </div>
+            </div></div>
+
+        <div class="main-content">
+            <div class="stickynav">
+                <div class="stickynav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png">
+                </div>
+                <div class="stickynav-options">
+                    <button class="badge" >Explore Premium</button>
+                    <button class="badge dark-badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+          
+            <h3>Recently Played</h3>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/card1img.jpeg">
+                    <p class="card-title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of the most playes tracks..</p>
+                </div>
+            </div>
+            
+            <h3>Trending now near you</h3>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/card2img.jpeg">
+                    <p class="card-title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of the most playes tracks..</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card3img.jpeg">
+                    <p class="card-title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of the most playes tracks..</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card4img.jpeg">
+                    <p class="card-title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of the most playes tracks..</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card5img.jpeg">
+                    <p class="card-title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of the most playes tracks..</p>
+                </div>
+                <div class="card">
+                    <img src="assets/card6img.jpeg">
+                    <p class="card-title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of the most playes tracks..</p>
+                </div>
+            </div>
+            <div class="footer">
+                <hr/>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="pic">
+                    <img class="now-playing"   src="./assets/card4img.jpeg">
+                </div>
+                <div class="det">
+                    <a href="#" class="song-name">Naa ready</a>
+                    <a href="#" class="singer">Anirudh Ravichander</a>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-laptop"></i>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time" >00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" style="width: 20rem;">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="controls-icons">
+                    <i class="fa-regular fa-square-caret-right"></i>
+                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-brands fa-chromecast"></i>
+                </div>
+                <div class="control-volums">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" min="0" max="100" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
